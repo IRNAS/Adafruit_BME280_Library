@@ -28,7 +28,7 @@
  *
  */
 
-#include "Adafruit_BME280.h"
+#include "low_power_Adafruit_BME280.h"
 #include "Arduino.h"
 #include <SPI.h>
 #include <Wire.h>
@@ -172,6 +172,7 @@ void Adafruit_BME280::setSampling(sensor_mode mode,
   write8(BME280_REGISTER_CONTROLHUMID, _humReg.get());
   write8(BME280_REGISTER_CONFIG, _configReg.get());
   write8(BME280_REGISTER_CONTROL, _measReg.get());
+  write8(BME280_REGISTER_CONTROL, MODE_SLEEP);
 }
 
 /*!

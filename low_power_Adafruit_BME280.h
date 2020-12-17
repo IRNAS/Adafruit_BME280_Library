@@ -18,8 +18,8 @@
  *
  */
 
-#ifndef __BME280_H__
-#define __BME280_H__
+#ifndef __LOW_POWER_BME280_H__
+#define __LOW_POWER_BME280_H__
 
 #include "Arduino.h"
 

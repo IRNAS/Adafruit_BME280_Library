@@ -1,0 +1,163 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Adafruit_BME280	low_power_Adafruit_BME280.cpp	/^Adafruit_BME280::Adafruit_BME280() : _cs(-1), _mosi(-1), _miso(-1), _sck(-1) {}$/;"	f	class:Adafruit_BME280
+Adafruit_BME280	low_power_Adafruit_BME280.cpp	/^Adafruit_BME280::Adafruit_BME280(int8_t cspin, SPIClass *theSPI) {$/;"	f	class:Adafruit_BME280
+Adafruit_BME280	low_power_Adafruit_BME280.cpp	/^Adafruit_BME280::Adafruit_BME280(int8_t cspin, int8_t mosipin, int8_t misopin,$/;"	f	class:Adafruit_BME280
+Adafruit_BME280	low_power_Adafruit_BME280.h	/^class Adafruit_BME280 {$/;"	c
+Adafruit_BME280_Humidity	low_power_Adafruit_BME280.h	/^  Adafruit_BME280_Humidity(Adafruit_BME280 *parent) { _theBME280 = parent; }$/;"	f	class:Adafruit_BME280_Humidity
+Adafruit_BME280_Humidity	low_power_Adafruit_BME280.h	/^class Adafruit_BME280_Humidity : public Adafruit_Sensor {$/;"	c
+Adafruit_BME280_Pressure	low_power_Adafruit_BME280.h	/^  Adafruit_BME280_Pressure(Adafruit_BME280 *parent) { _theBME280 = parent; }$/;"	f	class:Adafruit_BME280_Pressure
+Adafruit_BME280_Pressure	low_power_Adafruit_BME280.h	/^class Adafruit_BME280_Pressure : public Adafruit_Sensor {$/;"	c
+Adafruit_BME280_Temp	low_power_Adafruit_BME280.h	/^  Adafruit_BME280_Temp(Adafruit_BME280 *parent) { _theBME280 = parent; }$/;"	f	class:Adafruit_BME280_Temp
+Adafruit_BME280_Temp	low_power_Adafruit_BME280.h	/^class Adafruit_BME280_Temp : public Adafruit_Sensor {$/;"	c
+BME280_ADDRESS	low_power_Adafruit_BME280.h	33;"	d
+BME280_ADDRESS_ALTERNATE	low_power_Adafruit_BME280.h	37;"	d
+BME280_REGISTER_CAL26	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_CAL26 = 0xE1, \/\/ R calibration stored in 0xE1-0xF0$/;"	e	enum:__anon1
+BME280_REGISTER_CHIPID	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_CHIPID = 0xD0,$/;"	e	enum:__anon1
+BME280_REGISTER_CONFIG	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_CONFIG = 0xF5,$/;"	e	enum:__anon1
+BME280_REGISTER_CONTROL	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_CONTROL = 0xF4,$/;"	e	enum:__anon1
+BME280_REGISTER_CONTROLHUMID	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_CONTROLHUMID = 0xF2,$/;"	e	enum:__anon1
+BME280_REGISTER_DIG_H1	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_DIG_H1 = 0xA1,$/;"	e	enum:__anon1
+BME280_REGISTER_DIG_H2	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_DIG_H2 = 0xE1,$/;"	e	enum:__anon1
+BME280_REGISTER_DIG_H3	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_DIG_H3 = 0xE3,$/;"	e	enum:__anon1
+BME280_REGISTER_DIG_H4	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_DIG_H4 = 0xE4,$/;"	e	enum:__anon1
+BME280_REGISTER_DIG_H5	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_DIG_H5 = 0xE5,$/;"	e	enum:__anon1
+BME280_REGISTER_DIG_H6	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_DIG_H6 = 0xE7,$/;"	e	enum:__anon1
+BME280_REGISTER_DIG_P1	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_DIG_P1 = 0x8E,$/;"	e	enum:__anon1
+BME280_REGISTER_DIG_P2	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_DIG_P2 = 0x90,$/;"	e	enum:__anon1
+BME280_REGISTER_DIG_P3	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_DIG_P3 = 0x92,$/;"	e	enum:__anon1
+BME280_REGISTER_DIG_P4	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_DIG_P4 = 0x94,$/;"	e	enum:__anon1
+BME280_REGISTER_DIG_P5	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_DIG_P5 = 0x96,$/;"	e	enum:__anon1
+BME280_REGISTER_DIG_P6	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_DIG_P6 = 0x98,$/;"	e	enum:__anon1
+BME280_REGISTER_DIG_P7	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_DIG_P7 = 0x9A,$/;"	e	enum:__anon1
+BME280_REGISTER_DIG_P8	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_DIG_P8 = 0x9C,$/;"	e	enum:__anon1
+BME280_REGISTER_DIG_P9	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_DIG_P9 = 0x9E,$/;"	e	enum:__anon1
+BME280_REGISTER_DIG_T1	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_DIG_T1 = 0x88,$/;"	e	enum:__anon1
+BME280_REGISTER_DIG_T2	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_DIG_T2 = 0x8A,$/;"	e	enum:__anon1
+BME280_REGISTER_DIG_T3	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_DIG_T3 = 0x8C,$/;"	e	enum:__anon1
+BME280_REGISTER_HUMIDDATA	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_HUMIDDATA = 0xFD$/;"	e	enum:__anon1
+BME280_REGISTER_PRESSUREDATA	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_PRESSUREDATA = 0xF7,$/;"	e	enum:__anon1
+BME280_REGISTER_SOFTRESET	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_SOFTRESET = 0xE0,$/;"	e	enum:__anon1
+BME280_REGISTER_STATUS	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_STATUS = 0XF3,$/;"	e	enum:__anon1
+BME280_REGISTER_TEMPDATA	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_TEMPDATA = 0xFA,$/;"	e	enum:__anon1
+BME280_REGISTER_VERSION	low_power_Adafruit_BME280.h	/^  BME280_REGISTER_VERSION = 0xD1,$/;"	e	enum:__anon1
+FILTER_OFF	low_power_Adafruit_BME280.h	/^    FILTER_OFF = 0b000,$/;"	e	enum:Adafruit_BME280::sensor_filter
+FILTER_X16	low_power_Adafruit_BME280.h	/^    FILTER_X16 = 0b100$/;"	e	enum:Adafruit_BME280::sensor_filter
+FILTER_X2	low_power_Adafruit_BME280.h	/^    FILTER_X2 = 0b001,$/;"	e	enum:Adafruit_BME280::sensor_filter
+FILTER_X4	low_power_Adafruit_BME280.h	/^    FILTER_X4 = 0b010,$/;"	e	enum:Adafruit_BME280::sensor_filter
+FILTER_X8	low_power_Adafruit_BME280.h	/^    FILTER_X8 = 0b011,$/;"	e	enum:Adafruit_BME280::sensor_filter
+MODE_FORCED	low_power_Adafruit_BME280.h	/^    MODE_FORCED = 0b01,$/;"	e	enum:Adafruit_BME280::sensor_mode
+MODE_NORMAL	low_power_Adafruit_BME280.h	/^    MODE_NORMAL = 0b11$/;"	e	enum:Adafruit_BME280::sensor_mode
+MODE_SLEEP	low_power_Adafruit_BME280.h	/^    MODE_SLEEP = 0b00,$/;"	e	enum:Adafruit_BME280::sensor_mode
+SAMPLING_NONE	low_power_Adafruit_BME280.h	/^    SAMPLING_NONE = 0b000,$/;"	e	enum:Adafruit_BME280::sensor_sampling
+SAMPLING_X1	low_power_Adafruit_BME280.h	/^    SAMPLING_X1 = 0b001,$/;"	e	enum:Adafruit_BME280::sensor_sampling
+SAMPLING_X16	low_power_Adafruit_BME280.h	/^    SAMPLING_X16 = 0b101$/;"	e	enum:Adafruit_BME280::sensor_sampling
+SAMPLING_X2	low_power_Adafruit_BME280.h	/^    SAMPLING_X2 = 0b010,$/;"	e	enum:Adafruit_BME280::sensor_sampling
+SAMPLING_X4	low_power_Adafruit_BME280.h	/^    SAMPLING_X4 = 0b011,$/;"	e	enum:Adafruit_BME280::sensor_sampling
+SAMPLING_X8	low_power_Adafruit_BME280.h	/^    SAMPLING_X8 = 0b100,$/;"	e	enum:Adafruit_BME280::sensor_sampling
+STANDBY_MS_0_5	low_power_Adafruit_BME280.h	/^    STANDBY_MS_0_5 = 0b000,$/;"	e	enum:Adafruit_BME280::standby_duration
+STANDBY_MS_10	low_power_Adafruit_BME280.h	/^    STANDBY_MS_10 = 0b110,$/;"	e	enum:Adafruit_BME280::standby_duration
+STANDBY_MS_1000	low_power_Adafruit_BME280.h	/^    STANDBY_MS_1000 = 0b101$/;"	e	enum:Adafruit_BME280::standby_duration
+STANDBY_MS_125	low_power_Adafruit_BME280.h	/^    STANDBY_MS_125 = 0b010,$/;"	e	enum:Adafruit_BME280::standby_duration
+STANDBY_MS_20	low_power_Adafruit_BME280.h	/^    STANDBY_MS_20 = 0b111,$/;"	e	enum:Adafruit_BME280::standby_duration
+STANDBY_MS_250	low_power_Adafruit_BME280.h	/^    STANDBY_MS_250 = 0b011,$/;"	e	enum:Adafruit_BME280::standby_duration
+STANDBY_MS_500	low_power_Adafruit_BME280.h	/^    STANDBY_MS_500 = 0b100,$/;"	e	enum:Adafruit_BME280::standby_duration
+STANDBY_MS_62_5	low_power_Adafruit_BME280.h	/^    STANDBY_MS_62_5 = 0b001,$/;"	e	enum:Adafruit_BME280::standby_duration
+__BME280_H__	low_power_Adafruit_BME280.h	22;"	d
+_bme280_calib	low_power_Adafruit_BME280.h	/^  bme280_calib_data _bme280_calib; \/\/!< here calibration data is stored$/;"	m	class:Adafruit_BME280
+_configReg	low_power_Adafruit_BME280.h	/^  config _configReg; \/\/!< config register object$/;"	m	class:Adafruit_BME280
+_cs	low_power_Adafruit_BME280.h	/^  int8_t _cs;   \/\/!< for the SPI interface$/;"	m	class:Adafruit_BME280
+_humReg	low_power_Adafruit_BME280.h	/^  ctrl_hum _humReg; \/\/!< hum register object$/;"	m	class:Adafruit_BME280
+_i2caddr	low_power_Adafruit_BME280.h	/^  uint8_t _i2caddr;  \/\/!< I2C addr for the TwoWire interface$/;"	m	class:Adafruit_BME280
+_measReg	low_power_Adafruit_BME280.h	/^  ctrl_meas _measReg; \/\/!< measurement register object$/;"	m	class:Adafruit_BME280
+_miso	low_power_Adafruit_BME280.h	/^  int8_t _miso; \/\/!< for the SPI interface$/;"	m	class:Adafruit_BME280
+_mosi	low_power_Adafruit_BME280.h	/^  int8_t _mosi; \/\/!< for the SPI interface$/;"	m	class:Adafruit_BME280
+_sck	low_power_Adafruit_BME280.h	/^  int8_t _sck;  \/\/!< for the SPI interface$/;"	m	class:Adafruit_BME280
+_sensorID	low_power_Adafruit_BME280.h	/^  int _sensorID = 280;$/;"	m	class:Adafruit_BME280_Humidity
+_sensorID	low_power_Adafruit_BME280.h	/^  int _sensorID = 280;$/;"	m	class:Adafruit_BME280_Pressure
+_sensorID	low_power_Adafruit_BME280.h	/^  int _sensorID = 280;$/;"	m	class:Adafruit_BME280_Temp
+_sensorID	low_power_Adafruit_BME280.h	/^  int32_t _sensorID; \/\/!< ID of the BME Sensor$/;"	m	class:Adafruit_BME280
+_spi	low_power_Adafruit_BME280.h	/^  SPIClass *_spi; \/\/!< pointer to SPI object$/;"	m	class:Adafruit_BME280
+_theBME280	low_power_Adafruit_BME280.h	/^  Adafruit_BME280 *_theBME280 = NULL;$/;"	m	class:Adafruit_BME280_Humidity
+_theBME280	low_power_Adafruit_BME280.h	/^  Adafruit_BME280 *_theBME280 = NULL;$/;"	m	class:Adafruit_BME280_Pressure
+_theBME280	low_power_Adafruit_BME280.h	/^  Adafruit_BME280 *_theBME280 = NULL;$/;"	m	class:Adafruit_BME280_Temp
+_wire	low_power_Adafruit_BME280.h	/^  TwoWire *_wire; \/\/!< pointer to a TwoWire object$/;"	m	class:Adafruit_BME280
+begin	low_power_Adafruit_BME280.cpp	/^bool Adafruit_BME280::begin(uint8_t addr, TwoWire *theWire) {$/;"	f	class:Adafruit_BME280
+bme280_calib_data	low_power_Adafruit_BME280.h	/^} bme280_calib_data;$/;"	t	typeref:struct:__anon2
+config	low_power_Adafruit_BME280.h	/^  struct config {$/;"	s	class:Adafruit_BME280
+ctrl_hum	low_power_Adafruit_BME280.h	/^  struct ctrl_hum {$/;"	s	class:Adafruit_BME280
+ctrl_meas	low_power_Adafruit_BME280.h	/^  struct ctrl_meas {$/;"	s	class:Adafruit_BME280
+dig_H1	low_power_Adafruit_BME280.h	/^  uint8_t dig_H1; \/\/\/< humidity compensation value$/;"	m	struct:__anon2
+dig_H2	low_power_Adafruit_BME280.h	/^  int16_t dig_H2; \/\/\/< humidity compensation value$/;"	m	struct:__anon2
+dig_H3	low_power_Adafruit_BME280.h	/^  uint8_t dig_H3; \/\/\/< humidity compensation value$/;"	m	struct:__anon2
+dig_H4	low_power_Adafruit_BME280.h	/^  int16_t dig_H4; \/\/\/< humidity compensation value$/;"	m	struct:__anon2
+dig_H5	low_power_Adafruit_BME280.h	/^  int16_t dig_H5; \/\/\/< humidity compensation value$/;"	m	struct:__anon2
+dig_H6	low_power_Adafruit_BME280.h	/^  int8_t dig_H6;  \/\/\/< humidity compensation value$/;"	m	struct:__anon2
+dig_P1	low_power_Adafruit_BME280.h	/^  uint16_t dig_P1; \/\/\/< pressure compensation value$/;"	m	struct:__anon2
+dig_P2	low_power_Adafruit_BME280.h	/^  int16_t dig_P2;  \/\/\/< pressure compensation value$/;"	m	struct:__anon2
+dig_P3	low_power_Adafruit_BME280.h	/^  int16_t dig_P3;  \/\/\/< pressure compensation value$/;"	m	struct:__anon2
+dig_P4	low_power_Adafruit_BME280.h	/^  int16_t dig_P4;  \/\/\/< pressure compensation value$/;"	m	struct:__anon2
+dig_P5	low_power_Adafruit_BME280.h	/^  int16_t dig_P5;  \/\/\/< pressure compensation value$/;"	m	struct:__anon2
+dig_P6	low_power_Adafruit_BME280.h	/^  int16_t dig_P6;  \/\/\/< pressure compensation value$/;"	m	struct:__anon2
+dig_P7	low_power_Adafruit_BME280.h	/^  int16_t dig_P7;  \/\/\/< pressure compensation value$/;"	m	struct:__anon2
+dig_P8	low_power_Adafruit_BME280.h	/^  int16_t dig_P8;  \/\/\/< pressure compensation value$/;"	m	struct:__anon2
+dig_P9	low_power_Adafruit_BME280.h	/^  int16_t dig_P9;  \/\/\/< pressure compensation value$/;"	m	struct:__anon2
+dig_T1	low_power_Adafruit_BME280.h	/^  uint16_t dig_T1; \/\/\/< temperature compensation value$/;"	m	struct:__anon2
+dig_T2	low_power_Adafruit_BME280.h	/^  int16_t dig_T2;  \/\/\/< temperature compensation value$/;"	m	struct:__anon2
+dig_T3	low_power_Adafruit_BME280.h	/^  int16_t dig_T3;  \/\/\/< temperature compensation value$/;"	m	struct:__anon2
+filter	low_power_Adafruit_BME280.h	/^    unsigned int filter : 3; \/\/\/< filter settings$/;"	m	struct:Adafruit_BME280::config
+get	low_power_Adafruit_BME280.h	/^    unsigned int get() { return (osrs_h); }$/;"	f	struct:Adafruit_BME280::ctrl_hum
+get	low_power_Adafruit_BME280.h	/^    unsigned int get() { return (osrs_t << 5) | (osrs_p << 2) | mode; }$/;"	f	struct:Adafruit_BME280::ctrl_meas
+get	low_power_Adafruit_BME280.h	/^    unsigned int get() { return (t_sb << 5) | (filter << 2) | spi3w_en; }$/;"	f	struct:Adafruit_BME280::config
+getEvent	low_power_Adafruit_BME280.cpp	/^bool Adafruit_BME280_Humidity::getEvent(sensors_event_t *event) {$/;"	f	class:Adafruit_BME280_Humidity
+getEvent	low_power_Adafruit_BME280.cpp	/^bool Adafruit_BME280_Pressure::getEvent(sensors_event_t *event) {$/;"	f	class:Adafruit_BME280_Pressure
+getEvent	low_power_Adafruit_BME280.cpp	/^bool Adafruit_BME280_Temp::getEvent(sensors_event_t *event) {$/;"	f	class:Adafruit_BME280_Temp
+getHumiditySensor	low_power_Adafruit_BME280.cpp	/^Adafruit_Sensor *Adafruit_BME280::getHumiditySensor(void) {$/;"	f	class:Adafruit_BME280
+getPressureSensor	low_power_Adafruit_BME280.cpp	/^Adafruit_Sensor *Adafruit_BME280::getPressureSensor(void) {$/;"	f	class:Adafruit_BME280
+getSensor	low_power_Adafruit_BME280.cpp	/^void Adafruit_BME280_Humidity::getSensor(sensor_t *sensor) {$/;"	f	class:Adafruit_BME280_Humidity
+getSensor	low_power_Adafruit_BME280.cpp	/^void Adafruit_BME280_Pressure::getSensor(sensor_t *sensor) {$/;"	f	class:Adafruit_BME280_Pressure
+getSensor	low_power_Adafruit_BME280.cpp	/^void Adafruit_BME280_Temp::getSensor(sensor_t *sensor) {$/;"	f	class:Adafruit_BME280_Temp
+getTemperatureCompensation	low_power_Adafruit_BME280.cpp	/^float Adafruit_BME280::getTemperatureCompensation(void) {$/;"	f	class:Adafruit_BME280
+getTemperatureSensor	low_power_Adafruit_BME280.cpp	/^Adafruit_Sensor *Adafruit_BME280::getTemperatureSensor(void) {$/;"	f	class:Adafruit_BME280
+humidity_sensor	low_power_Adafruit_BME280.h	/^  Adafruit_BME280_Humidity *humidity_sensor = NULL;$/;"	m	class:Adafruit_BME280
+init	low_power_Adafruit_BME280.cpp	/^bool Adafruit_BME280::init() {$/;"	f	class:Adafruit_BME280
+isReadingCalibration	low_power_Adafruit_BME280.cpp	/^bool Adafruit_BME280::isReadingCalibration(void) {$/;"	f	class:Adafruit_BME280
+mode	low_power_Adafruit_BME280.h	/^    unsigned int mode : 2; \/\/\/< device mode$/;"	m	struct:Adafruit_BME280::ctrl_meas
+none	low_power_Adafruit_BME280.h	/^    unsigned int none : 1;     \/\/\/< unused - don't set$/;"	m	struct:Adafruit_BME280::config
+none	low_power_Adafruit_BME280.h	/^    unsigned int none : 5;$/;"	m	struct:Adafruit_BME280::ctrl_hum
+osrs_h	low_power_Adafruit_BME280.h	/^    unsigned int osrs_h : 3; \/\/\/< pressure oversampling$/;"	m	struct:Adafruit_BME280::ctrl_hum
+osrs_p	low_power_Adafruit_BME280.h	/^    unsigned int osrs_p : 3; \/\/\/< pressure oversampling$/;"	m	struct:Adafruit_BME280::ctrl_meas
+osrs_t	low_power_Adafruit_BME280.h	/^    unsigned int osrs_t : 3; \/\/\/< temperature oversampling$/;"	m	struct:Adafruit_BME280::ctrl_meas
+pressure_sensor	low_power_Adafruit_BME280.h	/^  Adafruit_BME280_Pressure *pressure_sensor = NULL;$/;"	m	class:Adafruit_BME280
+read16	low_power_Adafruit_BME280.cpp	/^uint16_t Adafruit_BME280::read16(byte reg) {$/;"	f	class:Adafruit_BME280
+read16_LE	low_power_Adafruit_BME280.cpp	/^uint16_t Adafruit_BME280::read16_LE(byte reg) {$/;"	f	class:Adafruit_BME280
+read24	low_power_Adafruit_BME280.cpp	/^uint32_t Adafruit_BME280::read24(byte reg) {$/;"	f	class:Adafruit_BME280
+read8	low_power_Adafruit_BME280.cpp	/^uint8_t Adafruit_BME280::read8(byte reg) {$/;"	f	class:Adafruit_BME280
+readAltitude	low_power_Adafruit_BME280.cpp	/^float Adafruit_BME280::readAltitude(float seaLevel) {$/;"	f	class:Adafruit_BME280
+readCoefficients	low_power_Adafruit_BME280.cpp	/^void Adafruit_BME280::readCoefficients(void) {$/;"	f	class:Adafruit_BME280
+readHumidity	low_power_Adafruit_BME280.cpp	/^float Adafruit_BME280::readHumidity(void) {$/;"	f	class:Adafruit_BME280
+readPressure	low_power_Adafruit_BME280.cpp	/^float Adafruit_BME280::readPressure(void) {$/;"	f	class:Adafruit_BME280
+readS16	low_power_Adafruit_BME280.cpp	/^int16_t Adafruit_BME280::readS16(byte reg) { return (int16_t)read16(reg); }$/;"	f	class:Adafruit_BME280
+readS16_LE	low_power_Adafruit_BME280.cpp	/^int16_t Adafruit_BME280::readS16_LE(byte reg) {$/;"	f	class:Adafruit_BME280
+readTemperature	low_power_Adafruit_BME280.cpp	/^float Adafruit_BME280::readTemperature(void) {$/;"	f	class:Adafruit_BME280
+seaLevelForAltitude	low_power_Adafruit_BME280.cpp	/^float Adafruit_BME280::seaLevelForAltitude(float altitude, float atmospheric) {$/;"	f	class:Adafruit_BME280
+sensorID	low_power_Adafruit_BME280.cpp	/^uint32_t Adafruit_BME280::sensorID(void) { return _sensorID; }$/;"	f	class:Adafruit_BME280
+sensor_filter	low_power_Adafruit_BME280.h	/^  enum sensor_filter {$/;"	g	class:Adafruit_BME280
+sensor_mode	low_power_Adafruit_BME280.h	/^  enum sensor_mode {$/;"	g	class:Adafruit_BME280
+sensor_sampling	low_power_Adafruit_BME280.h	/^  enum sensor_sampling {$/;"	g	class:Adafruit_BME280
+setSampling	low_power_Adafruit_BME280.cpp	/^void Adafruit_BME280::setSampling(sensor_mode mode,$/;"	f	class:Adafruit_BME280
+setTemperatureCompensation	low_power_Adafruit_BME280.cpp	/^void Adafruit_BME280::setTemperatureCompensation(float adjustment) {$/;"	f	class:Adafruit_BME280
+spi3w_en	low_power_Adafruit_BME280.h	/^    unsigned int spi3w_en : 1; \/\/\/< unused - don't set$/;"	m	struct:Adafruit_BME280::config
+spixfer	low_power_Adafruit_BME280.cpp	/^uint8_t Adafruit_BME280::spixfer(uint8_t x) {$/;"	f	class:Adafruit_BME280
+standby_duration	low_power_Adafruit_BME280.h	/^  enum standby_duration {$/;"	g	class:Adafruit_BME280
+t_fine	low_power_Adafruit_BME280.h	/^  int32_t t_fine; \/\/!< temperature with high resolution, stored as an attribute$/;"	m	class:Adafruit_BME280
+t_fine_adjust	low_power_Adafruit_BME280.h	/^  int32_t t_fine_adjust = 0; \/\/!< add to compensate temp readings and in turn$/;"	m	class:Adafruit_BME280
+t_sb	low_power_Adafruit_BME280.h	/^    unsigned int t_sb : 3; \/\/\/< inactive duration (standby time) in normal mode$/;"	m	struct:Adafruit_BME280::config
+takeForcedMeasurement	low_power_Adafruit_BME280.cpp	/^bool Adafruit_BME280::takeForcedMeasurement(void) {$/;"	f	class:Adafruit_BME280
+temp_sensor	low_power_Adafruit_BME280.h	/^  Adafruit_BME280_Temp *temp_sensor = NULL;$/;"	m	class:Adafruit_BME280
+write8	low_power_Adafruit_BME280.cpp	/^void Adafruit_BME280::write8(byte reg, byte value) {$/;"	f	class:Adafruit_BME280
+~Adafruit_BME280	low_power_Adafruit_BME280.cpp	/^Adafruit_BME280::~Adafruit_BME280(void) {$/;"	f	class:Adafruit_BME280
